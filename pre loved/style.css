@@ -1,0 +1,22 @@
+.upload{
+    border-radius: 5px;
+    margin-left: 500px;
+}
+.take{
+    border-radius:  5px;
+    margin-left: 10px;
+}
+.search-bar{
+    border-radius: 5px;
+}
+p{
+    font-weight: bold;
+}
+.Description{
+    height: 100px;
+    width: 300px;
+    text-align: center;
+}
+/* .photo{ */
+    /* border: 2px solid black; */
+/* } */
