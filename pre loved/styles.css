@@ -1,0 +1,277 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:black;
+
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:black;
+    padding: 15px;
+    color: white;
+}
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #232f3e;
+    padding:15px;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.search-bar {
+    flex: 1;
+    margin: 0 15px;
+    /* margin-right: 500px; */
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    background-color: #232f3e;
+}
+
+.cart-btn {
+    background-color: #ff9900;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #f5f5f5;
+}
+.cart-btn1 {
+    background-color: #141313;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #f5f5f5;
+}
+
+/* Product Section */
+.product-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.product img {
+    max-width: 100px;
+}
+
+.add-to-cart {
+    background-color: #ff9900;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.hero{
+    background-image: url(hero_image.jpg);
+    background-size: cover;
+    height: 300px;
+    border-radius: 10px;
+
+}
+h3{
+    color: white;
+}
+.image-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+}
+
+.img1{
+    background-image: url(1.jpg);
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 15px;
+    margin: 10px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.img1:hover{
+    border: 1.5px dashed white;
+}
+.img2{
+    background-image: url(2.jpg);
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 15px;
+    margin: 10px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.img2:hover{
+    border: 1.5px dashed white;
+}
+.img3{
+    background-image: url(3.jpg);
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 15px;
+    margin: 10px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.img3:hover{
+    border: 1.5px dashed white;
+}
+.img5{
+    background-image: url(5.jpg);
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 15px;
+    margin: 10px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.img5:hover{
+    border: 1.5px dashed white;
+}
+.image-container2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    flex-wrap: wrap; 
+}
+
+.img21{
+    background-image: url(2.1.jpg);
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 15px;
+    margin: 10px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.img21:hover{
+    border: 1.5px dashed white;
+}
+.img23{
+    background-image: url(2.3.jpg);
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 15px;
+    margin: 10px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.img23:hover{
+    border: 1.5px dashed white;
+}
+.img24{
+    background-image: url(2.4.jpg);
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 15px;
+    margin: 10px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.img24:hover{
+    border: 1.5px dashed white;
+}
+.img25{
+    background-image: url(2.5.jpg);
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 15px;
+    margin: 10px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.img25:hover{
+    border: 1.5px dashed white;
+}
+.img26{
+    background-image: url(2.6.jpg);
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    padding: 10px 15px;
+    margin: 10px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+.img26:hover{
+    border: 1.5px dashed white;
+}
+.get{
+    background-color: #ff9900;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: #f5f5f5;
+    align-items: center;
+    margin-top: 200px;
+    margin-left: 500px;
+}
+.home{
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+.home:hover{
+    border: 1.5px dashed white;
+}
+.search{
+    margin-left: 10px;
+    cursor: pointer;
+}
+.search:hover{
+    border: 1.5px dashed white;
+}
